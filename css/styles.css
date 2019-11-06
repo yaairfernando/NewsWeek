@@ -7,8 +7,168 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
 }
+
 
 .container {
   max-width: 1310px;
+  padding: 0;
 }
+
+/* HEADER */
+
+.page-header .container {
+  position: relative;
+}
+
+.f-fam {
+  font-family: 'Roboto Slab', serif;
+}
+
+.header-container {
+  background: #f72210;
+  height: 95px;
+  padding: 20px 10px 15px;
+  position: relative;
+}
+
+.fj-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fj-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fa-end {
+  align-items: flex-end;
+}
+
+.hidden {
+  display: none;
+}
+
+.header-top div:first-child {
+  color: #eee;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.header-top div:nth-child(2) a:hover {
+  text-decoration: none;
+}
+
+.sign-in {
+  background-color: transparent;
+  color: #eee;
+  text-transform: uppercase;
+  margin: 0 5px;
+  font-weight: 600;
+}
+
+.subscribe {
+  background-color: transparent;
+  color: #F72210;
+  background: #eee;
+  margin-left: 5px;
+  width: 140px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.header-middle {
+  position: absolute;
+  top: -18%;
+  left: 35%;
+  height: 105px;
+}
+
+.header-middle a {
+  color: #eee;
+  font-size: 5.2rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: -6px;
+}
+
+.header-bottom {
+  margin-left: -15px;
+  max-width: 1310px;
+}
+
+.header-bottom::before {
+  position: absolute;
+  top: 63%;
+  right: -1.11%;
+  content: "";
+  display: block;
+  width: 80px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+
+
+
+/* END */
+
+
+/* MEDIAS  */
+@media (max-width: 1220px) {
+  .header-middle {
+    left: 30%;
+  }
+}
+
+@media (max-width: 991px) {
+  .header-container,
+  .header-bottom::before {
+    display: none;
+  }
+
+  .header-bottom {
+    background: #f72210;
+    padding: 0 12px 0 28px;
+    height: 50px;
+  }
+
+  .navbar-expand-lg .hidden {
+    display: block;
+  }
+
+  .items-right {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    display: flex;
+  }
+
+  .navbar-light .navbar-brand {
+    color: #eee;
+    font-size: 1.6rem;
+    letter-spacing: -1px;
+  }
+
+  .page-header .container {
+    height: 50px;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .items-right {
+    right: 18%;
+  }
+}
+
+/* END */
