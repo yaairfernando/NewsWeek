@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto Condensed', sans-serif;
-  background: #F4F5F6;
+  background: #f4f5f6;
 }
 
 .container {
@@ -116,6 +116,13 @@ body {
   background-color: #f72210;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
+}
+
+.navbar-toggler,
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  border: none;
+  outline: 0 none;
 }
 
 .navbar-nav .nav-item {
