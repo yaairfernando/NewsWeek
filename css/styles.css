@@ -16,6 +16,12 @@ body {
   padding: 0;
 }
 
+.container-fluid {
+  max-width: 1310px;
+  padding: 0 30px;
+  background: #fff;
+}
+
 .row {
   margin: 0;
 }
@@ -176,6 +182,11 @@ body {
   transition: all 0.5s ease;
   text-align: left;
   outline: 0 none;
+}
+
+.navbar-nav .desktop input[type="text"]:focus::placeholder,
+.navbar-nav .mobile input[type="text"]:focus::placeholder {
+  color: #fff;
 }
 
 .navbar-nav .desktop img {
