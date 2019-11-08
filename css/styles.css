@@ -26,6 +26,10 @@ body {
   margin: 0;
 }
 
+.card {
+  width: 100%;
+}
+
 /* HEADER */
 
 .page-header .container {
@@ -203,6 +207,11 @@ body {
 .navbar-nav .nav-item .nav-link:hover {
   color: #f72210;
 }
+
+/* END */
+
+/* MAIN */
+
 
 /* END */
 
