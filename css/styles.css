@@ -212,6 +212,26 @@ body {
 
 /* MAIN */
 
+.fz-1 {
+  font-size: 0.9rem;
+}
+
+.fz-0 {
+  font-size: 0.8rem;
+}
+
+.orange-hover:hover {
+  color: #f72210;
+  cursor: pointer;
+}
+
+.card-img:hover {
+  cursor: pointer;
+}
+
+.card-text {
+  color: #555;
+}
 
 /* END */
 
