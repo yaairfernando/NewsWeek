@@ -289,6 +289,11 @@ body {
   font-size: 1.4rem;
 }
 
+.fz-18 {
+  font-size: 1.2rem;
+}
+
+
 .fz-15 {
   font-size: 1.1rem;
 }
@@ -376,13 +381,21 @@ h6 {
   height: 280px;
 }
 
-.magazine .card-body a {
+.h-200 {
+  height: 320px;
+}
+
+.h-200-q {
+  height: 240px;
+}
+
+.magazine .card-body a.features {
   color: black;
   background-color: #f4f5f6;
 }
 
-.magazine .card-body:hover,
-.magazine .card-body:hover a {
+.magazine .card-features:hover,
+.magazine .card-body:hover a.features {
   background-color: #dbdcdd;
   text-decoration: none;
 }
@@ -391,12 +404,32 @@ h6 {
   height: 40px;
 }
 
+.magazine .card-body a.btn-back {
+  background: #f72210;
+  padding: 5px 10px;
+  color: #f4f5f6;
+}
+
+.magazine .card-body a.btn-outline {
+  padding: 5px 10px;
+  color: #f72210;
+}
+
+.magazine .card-body a.btn-outline:hover,
+.magazine .card-body a.btn-back:hover {
+  text-decoration: none;
+}
+
 /* END */
 
 /* MEDIAS  */
 @media (max-width: 1220px) {
   .header-middle {
     left: 30%;
+  }
+
+  .magazine .col-3 .h-200 {
+    margin-top: 65px;
   }
 }
 
@@ -501,6 +534,20 @@ h6 {
   .w-370 {
     max-width: 370px;
   }
+
+  .h-180 {
+    height: 200px;
+  } 
+
+  .btn-back,
+  .btn-outline {
+    padding: 5px 7px;
+    font-size: 0.8rem;
+  }
+
+  .actions {
+    padding: 5px 0 !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -527,6 +574,26 @@ h6 {
   .w-370 {
     max-width: 100%;
     padding: 0;
+  }
+
+  .features {
+    font-size: 1.1rem;
+  }
+
+  .h-180,
+  .in-focus {
+    height: 500px !important;
+  }
+
+  .h-200 {
+    height: auto;
+  }
+}
+
+@media (max-width: 499px) {
+  .h-180,
+  .in-focus {
+    height: 300px !important;
   }
 }
 
