@@ -293,7 +293,6 @@ body {
   font-size: 1.2rem;
 }
 
-
 .fz-15 {
   font-size: 1.1rem;
 }
@@ -382,11 +381,11 @@ h6 {
 }
 
 .h-200 {
-  height: 320px;
+  height: 390px;
 }
 
 .h-200-q {
-  height: 240px;
+  height: 290px;
 }
 
 .magazine .card-body a.features {
@@ -537,7 +536,7 @@ h6 {
 
   .h-180 {
     height: 200px;
-  } 
+  }
 
   .btn-back,
   .btn-outline {
@@ -547,6 +546,14 @@ h6 {
 
   .actions {
     padding: 5px 0 !important;
+  }
+
+  .h-200-q {
+    height: 220px;
+  }
+
+  .h-200 {
+    height: 290px;
   }
 }
 
