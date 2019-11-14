@@ -372,6 +372,25 @@ h6 {
   text-decoration: none;
 }
 
+.h-180 {
+  height: 280px;
+}
+
+.magazine .card-body a {
+  color: black;
+  background-color: #f4f5f6;
+}
+
+.magazine .card-body:hover,
+.magazine .card-body:hover a {
+  background-color: #dbdcdd;
+  text-decoration: none;
+}
+
+.h-40 {
+  height: 40px;
+}
+
 /* END */
 
 /* MEDIAS  */
@@ -457,6 +476,7 @@ h6 {
     background: #fff;
     margin-top: 2px;
     position: absolute;
+    z-index: 1;
   }
 
   .navbar-nav {
@@ -506,6 +526,7 @@ h6 {
 
   .w-370 {
     max-width: 100%;
+    padding: 0;
   }
 }
 
