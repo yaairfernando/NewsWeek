@@ -463,6 +463,18 @@ h6 {
   .items-right {
     right: 18%;
   }
+
+  .w-250 {
+    width: 250px;
+  }
+
+  .p-none {
+    padding: 0;
+  }
+
+  .container-fluid {
+    padding: 0 10px;
+  }
 }
 
 /* END */
