@@ -352,6 +352,10 @@ h6 {
   color: #c2d4d7;
 }
 
+.more-stories .card-title:hover {
+  color: #000;
+}
+
 /* END */
 
 /* MEDIAS  */
