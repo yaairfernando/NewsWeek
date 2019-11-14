@@ -289,6 +289,10 @@ body {
   font-size: 1.4rem;
 }
 
+.fz-15 {
+  font-size: 1.1rem;
+}
+
 .fz-1 {
   font-size: 0.93rem;
 }
@@ -322,7 +326,7 @@ h6 {
 }
 
 .back-grey {
-  background: #f4f5f7;
+  background: #f4f5f6;
 }
 
 .culture .card-title {
@@ -354,6 +358,18 @@ h6 {
 
 .more-stories .card-title:hover {
   color: #000;
+}
+
+.sign-up {
+  color: #eee;
+  background: #555;
+  padding: 10px 20px;
+}
+
+.sign-up:hover {
+  color: #eee;
+  background-color: #999;
+  text-decoration: none;
 }
 
 /* END */
@@ -457,6 +473,14 @@ h6 {
     width: 85%;
     margin: 0 auto;
   }
+
+  .wid-100 {
+    width: 100%;
+  }
+
+  .w-370 {
+    max-width: 370px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -472,8 +496,16 @@ h6 {
     padding: 0;
   }
 
+  .mtop-3 {
+    margin-top: 30px;
+  }
+
   .container-fluid {
     padding: 0 10px;
+  }
+
+  .w-370 {
+    max-width: 100%;
   }
 }
 
