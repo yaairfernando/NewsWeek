@@ -419,6 +419,18 @@ h6 {
   text-decoration: none;
 }
 
+.editors-pick .card img:hover {
+  cursor: pointer;
+}
+
+.des {
+  display: none;
+}
+
+.mob {
+  display: block;
+}
+
 /* END */
 
 /* MEDIAS  */
@@ -555,6 +567,10 @@ h6 {
   .h-200 {
     height: 290px;
   }
+
+  .editors-pick .no-padd {
+    padding: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -594,6 +610,14 @@ h6 {
 
   .h-200 {
     height: auto;
+  }
+
+  .des {
+    display: block;
+  }
+
+  .mob {
+    display: none;
   }
 }
 
