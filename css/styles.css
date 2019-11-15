@@ -619,6 +619,10 @@ h6 {
   .mob {
     display: none;
   }
+
+  .slide-shows .no-padd {
+    padding: 0;
+  }
 }
 
 @media (max-width: 499px) {
