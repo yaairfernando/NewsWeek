@@ -642,6 +642,17 @@ h6 {
   .slide-shows .no-padd {
     padding: 0;
   }
+
+  .us .no-padd {
+    padding: 0;
+    margin: 0;
+  }
+
+  .us .n-pad-mar {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 499px) {
