@@ -623,6 +623,10 @@ aside .subs {
   .editors-pick .no-padd {
     padding: 0;
   }
+
+  .h-200-news {
+    height: 200px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -685,6 +689,10 @@ aside .subs {
     padding: 0;
     margin: 0;
     max-width: 100%;
+  }
+
+  aside .t-center {
+    text-align: center;
   }
 }
 
