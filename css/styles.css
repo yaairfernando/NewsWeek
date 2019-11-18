@@ -450,6 +450,39 @@ h6 {
   text-decoration: none;
 }
 
+aside .card-title:hover {
+  text-decoration: none;
+}
+
+aside .card-body p {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+aside .subs {
+  color: #eee;
+  background: #f72210;
+  padding: 10px 20px;
+  font-size: 1.3rem;
+}
+
+.color-orange {
+  color: #f72210;
+}
+
+.h-200-news {
+  height: 295px;
+}
+
+.hz-100 {
+  height: 100%;
+}
+
+.wid-hei {
+  width: 100%;
+  height: 100%;
+}
+
 /* END */
 
 /* MEDIAS  */
