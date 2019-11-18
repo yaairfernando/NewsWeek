@@ -431,6 +431,25 @@ h6 {
   display: block;
 }
 
+.card .pt-2 .float-left {
+  width: 150px;
+}
+
+.no-padd-title {
+  max-width: 95%;
+  margin: 0 29px;
+  padding: 0;
+}
+
+.h-90 {
+  height: 70%;
+}
+
+.us .title {
+  color: #f72210;
+  text-decoration: none;
+}
+
 /* END */
 
 /* MEDIAS  */
