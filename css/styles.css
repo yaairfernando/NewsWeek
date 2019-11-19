@@ -471,7 +471,7 @@ aside .subs {
 }
 
 .h-200-news {
-  height: 295px;
+  height: 37.8vh;
 }
 
 .hz-100 {
@@ -481,6 +481,78 @@ aside .subs {
 .wid-hei {
   width: 100%;
   height: 100%;
+}
+
+footer .b-top {
+  border-top: 2px solid #f4f5f6;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 3px 7px;
+  font-size: 24px;
+}
+
+footer ul li i[class~="fab"] {
+  color: #666;
+}
+
+footer ul li i[class~="fa-facebook-square"]:hover {
+  color: #3b5998;
+  cursor: pointer;
+}
+
+footer ul li i[class~="fa-twitter"]:hover {
+  color: #1da1f2;
+  cursor: pointer;
+}
+
+footer ul li i[class~="fa-instagram"]:hover {
+  color: #405de6;
+  cursor: pointer;
+}
+
+footer ul li i[class~="fa-tumblr"]:hover {
+  color: #35465c;
+  cursor: pointer;
+}
+
+footer ul li i[class~="fa-linkedin-in"]:hover {
+  color: #0077b5;
+  cursor: pointer;
+}
+
+footer .copy-right {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer ul.navigation li,
+footer ul.second-navigation li {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 4px 1px;
+}
+
+footer ul.navigation li a,
+footer ul.second-navigation li a {
+  font-size: 0.85rem;
+  color: #666;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer ul.navigation li a:hover,
+footer ul.second-navigation li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.t-center {
+  text-align: center;
 }
 
 /* END */
@@ -627,6 +699,10 @@ aside .subs {
   .h-200-news {
     height: 200px;
   }
+
+  .t-center {
+    text-align: left;
+  }
 }
 
 @media (max-width: 768px) {
@@ -693,6 +769,32 @@ aside .subs {
 
   aside .t-center {
     text-align: center;
+  }
+
+  .h-200-news {
+    height: auto;
+  }
+
+  .pb-4-mob {
+    padding-bottom: 40px;
+  }
+
+  footer div.d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  footer .align-item-start {
+    align-items: flex-start !important;
+  }
+
+  footer .just-cont-start {
+    justify-content: flex-start !important;
+  }
+
+  footer ul.navigation {
+    width: 100% !important;
   }
 }
 
