@@ -161,18 +161,18 @@ footer ul.second-navigation li a {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-footer ul.navigation li a:hover,
-footer ul.second-navigation li a:hover {
-  text-decoration: none;
-  color: black;
-}
-
 .culture .card-body a {
   text-decoration: none;
   color: #555;
   display: inline-block;
   background: #c2d4d7;
   font-weight: normal;
+}
+
+footer ul.navigation li a:hover,
+footer ul.second-navigation li a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .culture .card-body a:hover {
