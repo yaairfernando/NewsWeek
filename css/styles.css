@@ -105,6 +105,10 @@ body {
 
 /* HEADER */
 
+h6.show {
+  display: none;
+}
+
 .page-header .container {
   position: relative;
 }
