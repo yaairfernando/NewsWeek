@@ -796,6 +796,10 @@ footer ul.second-navigation li a:hover {
   footer ul.navigation {
     width: 100% !important;
   }
+
+  .sticky-top {
+    position: none;
+  }
 }
 
 @media (max-width: 499px) {
