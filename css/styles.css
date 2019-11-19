@@ -145,6 +145,41 @@ body {
   letter-spacing: -1px;
 }
 
+.header-middle a {
+  color: #eee;
+  font-size: 5.2rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: -6px;
+}
+
+.culture .card-body a {
+  text-decoration: none;
+  color: #555;
+  display: inline-block;
+  background: #c2d4d7;
+  font-weight: normal;
+}
+
+.culture .card-body a:hover {
+  background-color: #272727;
+  color: #c2d4d7;
+}
+
+footer ul.navigation li a,
+footer ul.second-navigation li a {
+  font-size: 0.85rem;
+  color: #666;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer ul.navigation li a:hover,
+footer ul.second-navigation li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
 .header-top div:nth-child(2) a:hover {
   text-decoration: none;
 }
@@ -158,7 +193,6 @@ body {
 }
 
 .subscribe {
-  background-color: transparent;
   color: #f72210;
   background: #eee;
   margin-left: 5px;
@@ -167,20 +201,19 @@ body {
   font-weight: 800;
 }
 
+.subscribe:hover {
+  color: #f72210;
+}
+
+.sign-in:hover {
+  color: #eee;
+}
+
 .header-middle {
   position: absolute;
   top: -18%;
   left: 35%;
   height: 105px;
-}
-
-.header-middle a {
-  color: #eee;
-  font-size: 5.2rem;
-  text-decoration: none;
-  text-align: center;
-  font-weight: bold;
-  letter-spacing: -6px;
 }
 
 .header-bottom {
@@ -212,6 +245,11 @@ body {
   border-right: 1px solid #d9d9d9;
 }
 
+.navbar-nav .mobile {
+  display: none;
+  margin-top: 5px;
+}
+
 .navbar-nav .nav-item .mobile {
   display: none;
 }
@@ -220,11 +258,6 @@ body {
   border-right: none;
   position: absolute;
   left: 83%;
-}
-
-.navbar-nav .mobile {
-  display: none;
-  margin-top: 5px;
 }
 
 .navbar-nav .mobile input {
@@ -338,6 +371,10 @@ h6 {
   font-family: 'Lora', serif;
 }
 
+aside .card-title:hover {
+  text-decoration: none;
+}
+
 .culture .card-title:hover {
   text-decoration: none;
   cursor: pointer;
@@ -345,19 +382,6 @@ h6 {
 
 .culture .card-text {
   color: rgba(39, 39, 39, 0.5);
-}
-
-.culture .card-body a {
-  text-decoration: none;
-  color: #555;
-  display: inline-block;
-  background: #c2d4d7;
-  font-weight: normal;
-}
-
-.culture .card-body a:hover {
-  background-color: #272727;
-  color: #c2d4d7;
 }
 
 .more-stories .card-title:hover {
@@ -450,10 +474,6 @@ h6 {
   text-decoration: none;
 }
 
-aside .card-title:hover {
-  text-decoration: none;
-}
-
 aside .card-body p {
   font-size: 0.9rem;
   font-weight: normal;
@@ -536,19 +556,6 @@ footer ul.second-navigation li {
   display: inline-block;
   font-size: 0.8rem;
   padding: 4px 1px;
-}
-
-footer ul.navigation li a,
-footer ul.second-navigation li a {
-  font-size: 0.85rem;
-  color: #666;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-footer ul.navigation li a:hover,
-footer ul.second-navigation li a:hover {
-  text-decoration: none;
-  color: black;
 }
 
 .t-center {
