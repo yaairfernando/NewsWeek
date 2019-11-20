@@ -1,0 +1,15 @@
+linters:
+  stylelint:
+    config: 'stylelint.config.js'
+    # allow stylelint to use the fix feature 
+    fixer: true
+files:
+    ignore:
+        - 'css/Normalize/*'
+        
+# globally enable the fixers for this project        
+fixers:
+    enable: true
+# find full documentation here: https://stickler-ci.com/docs
+
+
