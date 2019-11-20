@@ -409,7 +409,8 @@ aside .card-title:hover {
 }
 
 .h-200 {
-  height: 390px;
+  height: 343px;
+  margin-top: 44px;
 }
 
 .h-200-q {
@@ -569,7 +570,7 @@ footer ul.second-navigation li {
 /* END */
 
 /* MEDIAS  */
-@media (max-width: 1220px) {
+@media (max-width: 1224px) {
   .header-middle {
     left: 30%;
   }
@@ -714,9 +715,13 @@ footer ul.second-navigation li {
   .t-center {
     text-align: left;
   }
+
+  .magazine .card-body a.features {
+    font-size: 1rem;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .items-right {
     right: 18%;
   }
@@ -817,6 +822,22 @@ footer ul.second-navigation li {
   .h-180,
   .in-focus {
     height: 300px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .header-bottom {
+    padding: 0 2px 0 8px;
+  }
+
+  .items-right {
+    right: 16%;
+    top: 33%;
+    font-size: 0.8rem;
+  }
+
+  .subscribe {
+    width: 70px;
   }
 }
 
