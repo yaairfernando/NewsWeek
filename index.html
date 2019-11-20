@@ -10,7 +10,8 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <script src="https://kit.fontawesome.com/819c4780a4.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Lora|Roboto+Slab:700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/Normalize/Normalize.css" />
   <link rel="stylesheet" href="css/styles.css" />
   <title>Newsweek</title>
@@ -19,81 +20,85 @@
 <body>
   <header class="page-header">
     <div class="container">
-      <div class="header-top row header-container">
-        <div class="col-6 fj-start fa-end">
-          Wed, Nov 06, 2019
-        </div>
-        <div class="col-6 fj-end fa-end">
-          <a href="#" class="sign-in">Sign In</a>
-          <a href="#" class="subscribe">SUBSCRIBE ></a>
-        </div>
-        <div class="header-middle">
-          <a href="#" class="f-fam">
-            Newsweek
-          </a>
-        </div>
-      </div>
-      <div class="header-bottom">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand hidden f-fam" href="#">Newsweek</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">
-              <span></span>
-            </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item mobile">
-                <input type="text" placeholder="Search" />
-                <img src="img/searchIcon.png" alt="SearchIcon" />
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">U.S</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">World</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Business</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Tech & Science</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Culture</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Newsgeek</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sports</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Health</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Opinion</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Vantage</a>
-              </li>
-
-              <li class="nav-item desktop">
-                <input type="text" placeholder="Search" />
-                <img src="img/searchIcon.png" alt="SearchIcon" />
-              </li>
-            </ul>
+      <div class="parent-header">
+        <div class="header-top row header-container">
+          <div class="col-6 fj-start fa-end">
+            Wed, Nov 06, 2019
           </div>
-        </nav>
-        <div class="items-right">
-          <a href="#" class="hidden sign-in">Sign In</a>
-          <a href="#" class="hidden subscribe">SUBSCRIBE</a>
+          <div class="col-6 fj-end fa-end">
+            <a href="#" class="sign-in">Sign In</a>
+            <a href="#" class="subscribe">SUBSCRIBE ></a>
+          </div>
+          <div class="header-middle">
+            <a href="#" class="f-fam">
+              Newsweek
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </header>
+  <div class="sticky-top sticky-nav">
+    <div class="container header-bottom">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand hidden f-fam" href="#">Newsweek</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <span></span>
+          </span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item mobile">
+              <input type="text" placeholder="Search" />
+              <img src="img/searchIcon.png" alt="SearchIcon" />
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">U.S</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">World</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tech & Science</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Culture</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Newsgeek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Health</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Opinion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vantage</a>
+            </li>
+  
+            <li class="nav-item desktop">
+              <input type="text" placeholder="Search" />
+              <img src="img/searchIcon.png" alt="SearchIcon" />
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="items-right">
+        <a href="#" class="hidden sign-in">Sign In</a>
+        <a href="#" class="hidden subscribe">SUBSCRIBE</a>
+      </div>
+    </div>
+  </div>
   <main class="main container-fluid">
     <div class="row pt-3">
       <div class="col-md-12 col-lg-9 pl-0">
@@ -1607,6 +1612,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

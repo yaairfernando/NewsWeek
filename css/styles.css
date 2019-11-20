@@ -224,12 +224,17 @@ footer ul.second-navigation li a:hover {
   max-width: 1310px;
   background-color: white;
   border-bottom-color: #f4f5f6;
+  position: relative;
+}
+
+.sticky-nav {
+  z-index: 1999;
 }
 
 .header-bottom::before {
   position: absolute;
-  top: 62%;
-  right: 0%;
+  top: -1%;
+  right: -0%;
   content: "";
   display: block;
   width: 80px;
@@ -611,10 +616,6 @@ footer ul.second-navigation li {
     color: #eee;
     font-size: 1.6rem;
     letter-spacing: -1px;
-  }
-
-  .page-header .container {
-    height: 50px;
   }
 
   .navbar {
