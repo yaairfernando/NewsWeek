@@ -1,3 +1,10 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield2]][linkedin-url2]
+[![Hireable][hireable]][hireable-url]
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -9,8 +16,11 @@
     <a href="https://github.com/YairFernando67/NewsWeek"><strong>Explore the docs »</strong></a>
     <br />
     <br />
+    <a href="https://github.com/YairFernando67/NewsWeek">View Demo</a>
+    ·
     <a href="https://github.com/YairFernando67/NewsWeek/issues">Report Bug</a>
     ·
+    <a href="https://github.com/YairFernando67/NewsWeek/issues">Request Feature</a>
   </p>
 </p>
 
@@ -22,7 +32,8 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+* [Contributing](#Contributing)
+* [Show your support](#Show-your-support)
 
 
 
@@ -42,17 +53,49 @@ The project was developed using these tools and technologies.
 
 
 <!-- CONTACT -->
+
 ## Contact
 
-Yair Fernando Facio Fraga - [YairFernando67](https://github.com/YairFernando67) - yair.facio11@gmail.com  
+👤 **Yair Fernando Facio**
+
+- Github: [@YairFernando67](https://github.com/YairFernando67)
+- Twitter: [@YairFernando18](https://twitter.com/YairFernando18)
+- Linkedin: [softwaredeveloperyairfacio](https://www.linkedin.com/in/softwaredeveloperyairfacio/)
+- Email: [yair.facio11@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=yair.facio11@gmail.com)
+- Portfolio: [softwaredeveloper](https://yairfernando67.github.io/Portfolio/)
+
+<p align="center">
 
 Project Link: [https://github.com/YairFernando67/NewsWeek](https://github.com/YairFernando67/NewsWeek)
 
+</p>
 
+## 🤝 Contributing
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [Normalize.css](https://necolas.github.io/normalize.css/)
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/YairFernando67/NewsWeek/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/YairFernando67/NewsWeek.svg?style=flat-square
+[contributors-url]: https://github.com/YairFernando67/NewsWeek/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/YairFernando67/NewsWeek.svg?style=flat-square
+[forks-url]: https://github.com/YairFernando67/NewsWeek/network/members
+[stars-shield]: https://img.shields.io/github/stars/YairFernando67/NewsWeek.svg?style=flat-square
+[stars-url]: https://github.com/YairFernando67/NewsWeek/stargazers
+[issues-shield]: https://img.shields.io/github/issues/YairFernando67/NewsWeek.svg?style=flat-square
+[issues-url]: https://github.com/YairFernando67/NewsWeek/issues
+[license-shield]: https://img.shields.io/github/license/YairFernando67/NewsWeek.svg?style=flat-square
+[license-url]: https://github.com/YairFernando67/NewsWeek/blob/master/LICENSE.txt
+[linkedin-shield2]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url2]: https://www.linkedin.com/in/softwaredeveloperyairfacio/
+[hireable]: https://cdn.rawgit.com/hiendv/hireable/master/styles/flat/yes.svg
+[hireable-url]: https://www.linkedin.com/in/softwaredeveloperyairfacio/
 
 
 
